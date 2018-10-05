@@ -5,28 +5,52 @@ h1{
 	font-family: forum;
 	font-size: 35px;
 	text-align: center;
-	color: rgb(175, 175, 175);
+	color: rgb(150, 150, 150);
 }
 p{
 	font-family: forum;
 	font-size: 25px;
-	color: rgb(175, 175, 175);
+	color: rgb(150, 150, 150);
 }
 
 
-
+a {
+	color: rgb(150, 150, 150)
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
-    overflow: show;
-    background-color: #555;
+    overflow: hidden;
+    background-color: #222;
+    border: 3px solid #333;
 }
-li-a {
-    display: inline-block;
-    font-size: 50px;
-    color: rgb(175, 175, 175);
-    padding: 10px 16px;
+li {
+    float: left;
+    border-right: 3px solid #333;
+}
+li a {
+     display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+}
+li a:hover {
+    background-color: #224;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    font-family: forum;
+	font-size: 45px;
+	text-align: center;
+	color: rgb(150, 150, 150);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
