@@ -7,6 +7,12 @@ h1{
 	text-align: center;
 	color: rgb(150, 150, 150);
 }
+h2{
+	font-family: forum;
+	font-size: 30px;
+	text-align: center;
+	color: rgb(150, 150, 150);
+}
 p{
 	font-family: forum;
 	font-size: 25px;
